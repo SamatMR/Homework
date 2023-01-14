@@ -5,9 +5,9 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA > numberB)
 {
-    Console.WriteLine(numberA);
+    Console.WriteLine($"{numberA} больше чем {numberB} ");
 }
 else
 {
-    Console.WriteLine(numberB);
+    Console.WriteLine($"{numberB} больше чем {numberA} ");
 }
